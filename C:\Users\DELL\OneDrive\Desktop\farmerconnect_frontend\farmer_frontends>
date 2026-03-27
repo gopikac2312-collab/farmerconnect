@@ -1,15 +1,15 @@
+# Remove the bad git setup
+rd /s /q .git
+
+# Start fresh
 git init
-
-# 2. Add all files
 git add .
+git commit -m "FarmerConnect frontend - full project"
 
-# 3. Commit your code
-git commit -m "Initial commit - FarmerConnect project"
+# Connect to your existing GitHub repo
+git remote add origin https://github.com/gopikac2312-collab/farmerconnect.git
 
-# 4. Connect to your GitHub repo (replace YOUR_USERNAME)
-git remote add origin https://github.com/gopika/farmerconnect.git
-
-# 5. Push to GitHub
 git branch -M main
-git push -u origin main
+git push -u origin main --force
 ```
+
