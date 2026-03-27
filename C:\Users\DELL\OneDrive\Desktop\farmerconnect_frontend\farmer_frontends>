@@ -1,0 +1,15 @@
+git init
+
+# 2. Add all files
+git add .
+
+# 3. Commit your code
+git commit -m "Initial commit - FarmerConnect project"
+
+# 4. Connect to your GitHub repo (replace YOUR_USERNAME)
+git remote add origin https://github.com/gopika/farmerconnect.git
+
+# 5. Push to GitHub
+git branch -M main
+git push -u origin main
+```
